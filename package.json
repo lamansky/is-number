@@ -1,0 +1,33 @@
+{
+  "name": "@lamansky/is-number",
+  "version": "1.0.0",
+  "description": "Returns true if a value is a number and not NaN.",
+  "keywords": [
+    "type",
+    "type check",
+    "number"
+  ],
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/is-number",
+  "repository": "lamansky/is-number",
+  "main": "index.js",
+  "files": [],
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^5.1.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
